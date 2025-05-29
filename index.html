@@ -3,100 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
+  <title>Hariharan B | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Tech Enthusiast</p>
+    <div class="navbar">
+      <h1>Hariharan B</h1>
+      <button id="theme-toggle">🌓</button>
+    </div>
   </header>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main class="container">
+    <section class="intro card">
+      <img src="yourphoto.jpg" alt="Hariharan B" class="profile-pic" />
+      <h2>ECE Student | VLSI & Web Dev Enthusiast</h2>
+      <p>Python, AI, Embedded Systems | Web Dev Intern @ Prodigy</p>
+      <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+    </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Brief introduction about yourself.</p>
-  </section>
+    <section class="card">
+      <h2>Career Objective</h2>
+      <p>Driven and future-focused Electronics and Communication Engineering student with hands-on exposure to VLSI design, SoC systems, and automation. Eager to contribute to tech innovations using Python, AI, and real-world problem-solving.</p>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML/CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <!-- Add more skills as needed -->
-    </ul>
-  </section>
+    <section class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>TFET for Analog/RF:</strong> Low-power VLSI simulations using Silvaco.</li>
+        <li><strong>Automatic Hydro Management:</strong> Arduino + soil sensors for smart irrigation.</li>
+        <li><strong>Light Tracking Robot:</strong> Sensor-driven robot that follows light sources.</li>
+      </ul>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title</h3>
-      <p>Short description of the project.</p>
-      <a href="#">View Project</a>
-    </div>
-    <!-- Add more projects as needed -->
-  </section>
+    <section class="card">
+      <h2>Skills</h2>
+      <p><strong>Programming:</strong> Python, VerilogHDL</p>
+      <p><strong>Hardware:</strong> Arduino, PCB Design (EasyEDA)</p>
+      <p><strong>Tools:</strong> Silvaco, MS Office, Canva</p>
+      <p><strong>Others:</strong> AI, UI/UX, VLSI, Time Management, Communication</p>
+    </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <div class="testimonial">
-      <p>"Your work is outstanding!"</p>
-      <h4>- Client Name</h4>
-    </div>
-    <!-- Add more testimonials as needed -->
-  </section>
+    <section class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>SRM IST (2022–2026):</strong> B.Tech ECE – CGPA: 8.95</li>
+        <li><strong>HSC:</strong> 83.67% – Victory Hr Sec School</li>
+        <li><strong>SSLC:</strong> 90.60% – Victory Hr Sec School</li>
+      </ul>
+    </section>
 
-  <!-- Blog Section -->
-  <section id="blog">
-    <h2>Blog</h2>
-    <article>
-      <h3>Blog Post Title</h3>
-      <p>Summary of the blog post.</p>
-      <a href="#">Read More</a>
-    </article>
-    <!-- Add more blog posts as needed -->
-  </section>
+    <section class="card">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Python for Data Science – NPTEL, IBM, Hackerrank</li>
+        <li>Intro to AI – Great Learning</li>
+        <li>Master Data Management – TCS iON</li>
+        <li>Goldman Sachs Job Simulation, Genesis’24 Presentation</li>
+      </ul>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-      
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="form-status"></p>
-  </section>
+    <section class="card">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Prodigy Infotech:</strong> Web Dev Intern</li>
+        <li><strong>Peeyesyem Hyundai:</strong> Automotive Sensors Internship</li>
+      </ul>
+    </section>
 
-  <!-- Footer -->
+    <section class="card">
+      <h2>Languages</h2>
+      <ul>
+        <li>English (Professional)</li>
+        <li>Tamil (Native)</li>
+        <li>Japanese (Beginner)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>📧 <a href="mailto:hariharan2004b@gmail.com">hariharan2004b@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/hariharan-b-5a8361334" target="_blank">LinkedIn Profile</a></p>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>© 2025 Hariharan B</p>
   </footer>
 
   <script src="script.js"></script>
